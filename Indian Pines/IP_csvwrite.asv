@@ -1,0 +1,6 @@
+% File to write all IP data to CSV files for use in python
+
+classes = [1:16];
+sample_num = 100000; % enough to get all points
+file = '
+[all_data, all_labels, label_name] = load_indian_pines(classes,sample_num,file);
